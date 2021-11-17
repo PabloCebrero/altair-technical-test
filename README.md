@@ -8,11 +8,25 @@ For the blue team, given an id, it will be possible to know if the user's word c
 
 ## Dependencies
 
+### Go
+
 As the main language of the application you must have Go installed on the device where you are going to run it.
+
+### [Mux](https://github.com/gorilla/mux)
+
+This package is used for the implementation of the API. 
+It is necessary to install it using the following command
+```sh
+go get -u github.com/gorilla/mux
+```
+
 
 ## Example
 
-In order to run the application you should go into <strong>cmd</strong> directory and execute <strong>go run main.go</strong>.
+In order to run the application you should execute
+```sh
+go run cmd/main.go
+```
 
 Once this is done there will be an API listening on port 8080.
 
