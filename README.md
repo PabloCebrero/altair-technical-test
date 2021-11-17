@@ -36,6 +36,106 @@ There are two differents endpoints
     </ol>
 </ol>
 
+### Data
+
+Data used in this technical test
+
+       personas = [{  
+            "id":"AAA",
+
+            "nombre":"Javier",
+
+            "apellido":"Miguez",
+
+            "equipo":"rojo",
+
+            "edad":44,
+
+            "palabra":"riachuelo"
+
+            },
+
+            {
+
+            "id":"AAB",
+
+            "nombre":"Luis",
+
+            "apellido":"Alonso",
+
+            "equipo":"azul",
+
+            "edad":32,
+
+            "palabra":"murcielago"
+
+            },
+
+            {
+
+            "id":"ABA",
+
+            "nombre":"Cristina",
+
+            "apellido":"Perez",
+
+            "equipo":"azul",
+
+            "edad":21,
+
+            "palabra":"solos"
+
+            },
+
+            {
+
+            "id":"ABB",
+
+            "nombre":"Mariano",
+
+            "apellido":"Gomez",
+
+            "equipo":"rojo",
+
+            "edad":18,
+
+            "palabra":"reconocer"
+
+            },
+
+            {
+
+            "id":"BAA",
+
+            "nombre":"Alicia",
+
+            "apellido":"Domenech",
+
+            "equipo":"rojo",
+
+            "edad":32,
+
+            "palabra":"oso"
+
+            },
+
+            {
+
+            "id":"BBA",
+
+            "nombre":"Susana",
+
+            "apellido":"Gomez",
+
+            "equipo":"azul",
+
+            "edad":19,
+
+            "palabra":"elefante"
+
+            }
+
+    ]
 
 
 
