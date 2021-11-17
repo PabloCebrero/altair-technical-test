@@ -2,7 +2,7 @@ package team
 
 import (
 	"github.com/altair-tecnical-test/src/data"
-	"github.com/altair-tecnical-test/src/utils"
+	"github.com/altair-tecnical-test/src/errors"
 	"strings"
 )
 
@@ -92,7 +92,7 @@ func getPersonById(id string, team []data.Person) (person data.Person, err error
 	}
 
 	if person.Id == "" {
-		err = utils.NO_PERSON_ID
+		err = errors.NO_PERSON_ID
 	}
 	return
 }
