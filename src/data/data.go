@@ -2,11 +2,11 @@ package data
 
 type Person struct {
 	Id       string
-	Nombre   string
-	Apellido string
-	Equipo   string
-	Edad     int
-	Palabra  string
+	Name   string
+	Surname string
+	Team   string
+	Age     int
+	Word  string
 }
 
 //Enum type for teams

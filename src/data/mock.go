@@ -3,10 +3,10 @@ package data
 //People is the initial list, that contains a group of Person, to be able to carry out this technical test
 var People= []Person{
 
-	{Id: "AAA", Nombre: "Javier", Apellido: "Miguez", Equipo: "rojo", Edad: 44, Palabra: "riachuelo"},
-	{Id: "AAB", Nombre: "Luis", Apellido: "Alonso", Equipo: "azul", Edad: 32, Palabra: "murcielago"},
-	{Id: "ABA", Nombre: "Cristina", Apellido: "Perez", Equipo: "azul", Edad: 21, Palabra: "solos"},
-	{Id: "ABB", Nombre: "Mariano", Apellido: "Gomez", Equipo: "rojo", Edad: 18, Palabra: "reconocer"},
-	{Id: "BAA", Nombre: "Alicia", Apellido: "Domenech", Equipo: "rojo", Edad: 32, Palabra: "oso"},
-	{Id: "BBA", Nombre: "Susana", Apellido: "Gomez", Equipo: "azul", Edad: 19, Palabra: "elefante"},
+	{Id: "AAA", Name: "Javier", Surname: "Miguez", Team: RED, Age: 44, Word: "riachuelo"},
+	{Id: "AAB", Name: "Luis", Surname: "Alonso", Team: BLUE, Age: 32, Word: "murcielago"},
+	{Id: "ABA", Name: "Cristina", Surname: "Perez", Team: BLUE, Age: 21, Word: "solos"},
+	{Id: "ABB", Name: "Mariano", Surname: "Gomez", Team: RED, Age: 18, Word: "reconocer"},
+	{Id: "BAA", Name: "Alicia", Surname: "Domenech", Team: RED, Age: 32, Word: "oso"},
+	{Id: "BBA", Name: "Susana", Surname: "Gomez", Team: BLUE, Age: 19, Word: "elefante"},
 }

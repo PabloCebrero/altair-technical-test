@@ -29,7 +29,7 @@ func NewManager() *Manager {
 //depending on the team they belong to
 func (m *Manager) SplitListByTeam(people []data.Person) {
 	for _, person := range people {
-		if person.Equipo == data.RED {
+		if person.Team == data.RED {
 			m.RedTeam = append(m.RedTeam, person)
 			continue
 		}
@@ -47,7 +47,7 @@ func (m *Manager) IsPersonWordPalindrome(id string) (res bool, err error) {
 		return
 	}
 
-	res = isPalindrome(strings.Split(person.Palabra, ""))
+	res = isPalindrome(strings.Split(person.Word, ""))
 
 	return
 }
@@ -63,7 +63,7 @@ func (m *Manager) HasPersonWordFiveVowels(id string) (res bool, err error) {
 	}
 
 	numberOfVowels := 0
-	for _, letter := range strings.Split(person.Palabra, "") {
+	for _, letter := range strings.Split(person.Word, "") {
 
 		if isVowel(letter) {
 			numberOfVowels++
